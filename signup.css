@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+header {
+    height: 70px;
+    background: #083B69;
+    width: 100%;
+    position: fixed;
+}
+.topBar img {
+    position: fixed;
+    top:1%;
+    margin-left: 15%;
+    width: 7%;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-top:0.8%;
+    margin-left:40%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 80px;
+    font-size:25px;
+}
+
+a{
+    text-decoration: none;
+    color: #ACD46A;
+}
+
+.main-bod {
+    height: 775px;
+    width: 100%;
+    background-color: #e7e7e7;
+    overflow: visible;
+}
+
+#main-img {
+    width: 100%;
+    filter: brightness(30%);
+}
+
+.left-text {
+    position: absolute;
+    color: #444444;
+    font-size: 55px;
+    font-weight: bold;
+    top:30%;
+    left:3%;
+}
+
+.left-text-second  {
+    position: absolute;
+    color: #444444;
+    font-size: 55px;
+    font-weight: bold;
+    top:37%;
+    left:4.05%;
+}
+
+#chatting-img {
+    float:right;
+    height: 700px;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 0px;
+    padding-left: 1%;
+    margin-top:3.9%;
+    margin-right: 15%;
+}
+
+#classroom-img {
+    margin-left: 44%;
+    height:200px;
+    margin-top:6%;
+
+}
+
+#backpack-img {
+    margin-top:11%;
+    margin-left:48%;
+    height: 175px;
+
+}
+
+#schedule-img {
+    position:absolute;
+    top:15%;
+    right:7%;
+    margin-left:0;
+    margin-bottom: 0;
+    height: 150px;
+
+}
+
+#lightbulb-img {
+    position:absolute;
+    right:7%;
+    top: 55%;
+    height: 175px;
+
+}
+
+.shape {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transform: scale(0.8);
+  }
+.cir {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 5;
+  }
+.btn-contain {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.btn {
+    position: absolute;
+    top: 90%;
+    left: -100%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    background: #083B69;
+    text-align: center;
+    z-index: 10;
+    transition: 0.2s;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0px 1px 5px 2px #BFCEEF;
+    font-size: 30px;
+  }
+.btn:active, .btn:hover, .btn:focus {
+    outline: none !important;
+    color: white;
+  } 
+ 
+.btn:active {
+    transform: scale(0.9) translate(-55%, -55%);
+  }
